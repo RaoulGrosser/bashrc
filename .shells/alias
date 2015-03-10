@@ -28,3 +28,6 @@ alias web02='ssh root@184.554.2.1'
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
+
+# Test quick changes to bashrc
+alias reload='source ~/.bashrc'
