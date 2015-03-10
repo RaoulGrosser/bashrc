@@ -6,7 +6,7 @@
 echo -ne "Good Morning,Raoul!. It's "; date '+%A, %B %-d %Y'
 uptime
 
-# If you want a zen moment you need to install the packages "fortune-mod".
+# If you want a zen moment you will need to install the packages "fortune-mod".
 #echo -e "And now your moment of Zen:"; fortune
 
 
