@@ -1,0 +1,25 @@
+# My shell shortcuts
+alias ls='ls --sort=extension --color=auto'
+alias ll='ls -lh'
+alias lal='ls -alh'
+alias la='ls -A'
+alias pms='sudo pm-suspend'
+alias psg='ps -A | grep'
+alias se='sudo gvim'
+alias e='gvim'
+alias grep='grep --color -n'
+alias smi='sudo make install'
+alias l='ls -CF'
+
+#Just take care of make
+alias make='clear && make'
+alias m='make'
+
+#Install, update etc..
+alias install='sudo apt-get install'
+alias clean='sudo apt-get clean && sudo apt-get autoclean && sudo apt-get dist-clean'
+alias update='sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade'
+
+# SSH Alias
+alias web01='ssh root@raoul.guru'
+alias web02='ssh root@184.554.2.1'
