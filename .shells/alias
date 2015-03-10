@@ -23,3 +23,8 @@ alias update='sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-u
 # SSH Alias
 alias web01='ssh root@raoul.guru'
 alias web02='ssh root@184.554.2.1'
+
+# Fixing the small mistakes
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
