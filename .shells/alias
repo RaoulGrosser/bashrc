@@ -29,5 +29,28 @@ alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
 
+# Hg Mercurial Commands
+alias hgc='hg commit -m'
+alias hgl='hg log -l 10'
+
+#For a really nice view you need to add this in your .hgrc 
+#[extensions]
+#graphlog =
+#alias hgl='hg log -G -l 10'
+
+# Git Commands
+# Add and Commit are used as functions
+alias gpo='git push orig'
+alias gp='git pull'
+alias gs='git status'
+alias gd='git-diff'
+alias gr='git-reflog'
+alias glf='git-ls-files'
+
+# Acad aliases
+alias cs351='cd ~/code/cs351'
+alias cs331='cd ~/code/cs331'
+alias cs370='cd ~/code/cs370'
+
 # Test quick changes to bashrc
 alias reload='source ~/.bashrc'
